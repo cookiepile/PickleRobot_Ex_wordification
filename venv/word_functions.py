@@ -13,7 +13,7 @@ digit_map = {
 # word_numbers function takes number as string input of phone number with delimeters removed and returns all possible combinations of 2 or more alhabet words that can be formed
 # word_numbers('543') returns an array of size 45 combinations of alphabets represented by number input like ['JG', 'JH', 'JI', 'KG', 'KH', 'KI','KHF', 'KID', 'KIE'.... ]along with index in number input of the first alphabet of the word created
 
-def word_numbers(input):
+def number_to_words(input):
   string_input = input
 
   # flag, flag2 used to offset single character words and empty string from array of combinations
@@ -64,4 +64,4 @@ def word_numbers(input):
   return word_combinations,alphabet_index
 
 #debug check
-#print(len(word_numbers('543')[0]))
+#print(len(number_to_words('543')[0]))

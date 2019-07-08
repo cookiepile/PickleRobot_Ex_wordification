@@ -10,7 +10,7 @@ number = re.findall("\d+", phone_number)
 number = ''.join(number)
 
 # find all possible combinations that can be formed using 2 or more letters from the wordified phone number
-[combinations,f_index] = word_functions.word_numbers(number)
+[combinations,f_index] = word_functions.number_to_words(number)
 
 # create empty list words to store list of english words
 words=[]
