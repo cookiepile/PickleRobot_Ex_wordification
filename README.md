@@ -1,12 +1,19 @@
 # READ ME #
 
-Steps to RUN (works for linux based system (require bash and python3))
+Steps to RUN Automated test case(works for linux based system (require bash and python3))
 ```bash
 git clone https://github.com/explorerneha/PickleRobot_Ex_wordification.git
 cd PickleRobot_Ex_wordification/Scripts/
 python3 test.py
 ```
-Otherwise import this repository as PyCharm project 
+Steps to RUN for user input(works for linux based system (require bash and python3))
+```bash
+git clone https://github.com/explorerneha/PickleRobot_Ex_wordification.git
+cd PickleRobot_Ex_wordification/Scripts/
+python3 main.py
+```
+
+Otherwise import this repository as PyCharm project
 
 ## word_function ##
 consists 3 functions namely:
