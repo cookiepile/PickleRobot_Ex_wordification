@@ -38,5 +38,6 @@ for i in range(len(test_word_list)):
 
 
 for i in range(len(test_number_list)):
+    print("\nInput: "+test_number_list[i]+"\nOutput: ")
     print(word_functions.all_wordifications(test_number_list[i]))
     print("\n")
