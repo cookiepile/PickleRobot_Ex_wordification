@@ -6,6 +6,9 @@ git clone https://github.com/explorerneha/PickleRobot_Ex_wordification.git
 cd PickleRobot_Ex_wordification/Scripts/
 python3 test.py
 ```
+To expand the test cases modify test_number.txt and test_word.txt and add the phone number and its respective wordified phone number
+Note: The function number_to_words returns the string which has maximum word length. If there is a possibility of 2 or more words of equal length, it returns first word found in dictionary
+
 Steps to RUN for user input(works for linux based system (require bash and python3))
 ```bash
 git clone https://github.com/explorerneha/PickleRobot_Ex_wordification.git
