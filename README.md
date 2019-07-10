@@ -8,7 +8,7 @@ python3 test.py
 ```
 Otherwise import this repository as PyCharm project 
 
-##word_function##
+## word_function ##
 consists 3 functions namely:
 ```bash
 number_to_words()
@@ -28,19 +28,19 @@ output of words_to_number("1-800-PAINTER") should be "1-800-724-6837")
 3. all_wordifications(), which outputs all possible combinations of numbers and English
 words in a phone number.
 
-#Folder Description#
+# Folder Description #
 
-##Scripts##
+## Scripts ##
 Contains python scripts and relevant files needed to run the project without IDE
 
-##Test##
+## Test ##
 Contains python script called test which runs test cases using test_number and test_word files which can be edited to add more test cases
 
-##venv##
+## venv ##
 Virtual environment folder containing dependencies to run main script
 Consists of word_function script
 
-##Lib##
+## Lib ##
 consists of detectEnglish script that checks if any word input exists in the dictionary.txt file. returns boolean True/False
 Script and dictionary.txt file found on https://inventwithpython.com/hacking/chapter12.html
 
